@@ -1,0 +1,525 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ControlzEx/4.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.19",
+          "System.Text.Json": "4.7.2"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/ControlzEx.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/ControlzEx.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "MahApps.Metro/2.4.9": {
+        "type": "package",
+        "dependencies": {
+          "ControlzEx": "[4.4.0, 6.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/MahApps.Metro.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/MahApps.Metro.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ],
+        "resource": {
+          "lib/netcoreapp3.1/de/MahApps.Metro.resources.dll": {
+            "locale": "de"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.19": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "System.Text.Json/4.7.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {}
+        }
+      },
+      "MaterialDesignColors/1.0.1": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/MaterialDesignColors.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MaterialDesignColors.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "MaterialDesignThemes.Wpf/1.0.1": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MaterialDesignColors": "1.0.1"
+        },
+        "compile": {
+          "bin/placeholder/MaterialDesignThemes.Wpf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MaterialDesignThemes.Wpf.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    },
+    ".NETFramework,Version=v4.5.2": {
+      "MaterialDesignColors/1.0.1": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.2",
+        "compile": {
+          "bin/placeholder/MaterialDesignColors.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MaterialDesignColors.dll": {}
+        }
+      },
+      "MaterialDesignThemes.Wpf/1.0.1": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.2",
+        "dependencies": {
+          "MaterialDesignColors": "1.0.1"
+        },
+        "compile": {
+          "bin/placeholder/MaterialDesignThemes.Wpf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MaterialDesignThemes.Wpf.dll": {}
+        }
+      }
+    },
+    "net6.0-windows7.0": {
+      "ControlzEx/4.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.19",
+          "System.Text.Json": "4.7.2"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/ControlzEx.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/ControlzEx.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "MahApps.Metro/2.4.9": {
+        "type": "package",
+        "dependencies": {
+          "ControlzEx": "[4.4.0, 6.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/MahApps.Metro.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/MahApps.Metro.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ],
+        "resource": {
+          "lib/netcoreapp3.1/de/MahApps.Metro.resources.dll": {
+            "locale": "de"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.19": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "System.Text.Json/4.7.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {}
+        }
+      },
+      "MaterialDesignColors/1.0.1": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MaterialDesignColors.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MaterialDesignColors.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "MaterialDesignThemes.Wpf/1.0.1": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MaterialDesignColors": "1.0.1"
+        },
+        "compile": {
+          "bin/placeholder/MaterialDesignThemes.Wpf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MaterialDesignThemes.Wpf.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "ControlzEx/4.4.0": {
+      "sha512": "pZ5z4hYWwE4R13UMCVs6vII//nL7hz+Nwn4oJlnsZJRGqJNy6Z9KnJiTZfly6lKFu0pMc1aWBZpx+VqFTQKP1Q==",
+      "type": "package",
+      "path": "controlzex/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "controlzex.4.4.0.nupkg.sha512",
+        "controlzex.nuspec",
+        "lib/net45/ControlzEx.dll",
+        "lib/net45/ControlzEx.pdb",
+        "lib/net45/ControlzEx.xml",
+        "lib/net462/ControlzEx.dll",
+        "lib/net462/ControlzEx.pdb",
+        "lib/net462/ControlzEx.xml",
+        "lib/netcoreapp3.0/ControlzEx.dll",
+        "lib/netcoreapp3.0/ControlzEx.pdb",
+        "lib/netcoreapp3.0/ControlzEx.xml",
+        "lib/netcoreapp3.1/ControlzEx.dll",
+        "lib/netcoreapp3.1/ControlzEx.pdb",
+        "lib/netcoreapp3.1/ControlzEx.xml",
+        "logo-mini.png"
+      ]
+    },
+    "MahApps.Metro/2.4.9": {
+      "sha512": "eMTkg6TBnCwHzszw7CP+pxsBeB4ZMsJFiTJJoifUVBysRyEenzzR+TKQJuMvvKK6KzvLxwHmJsFhi9o5p4vxhQ==",
+      "type": "package",
+      "path": "mahapps.metro/2.4.9",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/MahApps.Metro.dll",
+        "lib/net452/MahApps.Metro.pdb",
+        "lib/net452/MahApps.Metro.xml",
+        "lib/net452/de/MahApps.Metro.resources.dll",
+        "lib/net46/MahApps.Metro.dll",
+        "lib/net46/MahApps.Metro.pdb",
+        "lib/net46/MahApps.Metro.xml",
+        "lib/net46/de/MahApps.Metro.resources.dll",
+        "lib/net47/MahApps.Metro.dll",
+        "lib/net47/MahApps.Metro.pdb",
+        "lib/net47/MahApps.Metro.xml",
+        "lib/net47/de/MahApps.Metro.resources.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.dll",
+        "lib/netcoreapp3.0/MahApps.Metro.pdb",
+        "lib/netcoreapp3.0/MahApps.Metro.xml",
+        "lib/netcoreapp3.0/de/MahApps.Metro.resources.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.dll",
+        "lib/netcoreapp3.1/MahApps.Metro.pdb",
+        "lib/netcoreapp3.1/MahApps.Metro.xml",
+        "lib/netcoreapp3.1/de/MahApps.Metro.resources.dll",
+        "mahapps.metro.2.4.9.nupkg.sha512",
+        "mahapps.metro.logo.png",
+        "mahapps.metro.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.19": {
+      "sha512": "5sPWkbqImc2t1aQwIfJcKsUo7tOg1Tr8+6xVzZJB56Nzt4u9NlpcLofgdX/aRYpPKdWDA3U23Akw1KQzU5e82g==",
+      "type": "package",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.19",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Design/Microsoft.Xaml.Behaviors.Design.dll",
+        "lib/net45/Microsoft.Xaml.Behaviors.dll",
+        "lib/net45/Microsoft.Xaml.Behaviors.pdb",
+        "lib/net45/Microsoft.Xaml.Behaviors.xml",
+        "lib/netcoreapp3.0/Design/Microsoft.Xaml.Behaviors.DesignTools.dll",
+        "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.dll",
+        "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.pdb",
+        "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.xml",
+        "microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
+        "microsoft.xaml.behaviors.wpf.nuspec",
+        "tools/Install.ps1"
+      ]
+    },
+    "System.Text.Json/4.7.2": {
+      "sha512": "TcMd95wcrubm9nHvJEQs70rC0H/8omiSGGpU4FQ/ZA1URIqD4pjmFJh2Mfv1yH1eHgJDWTi2hMDXwTET+zOOyg==",
+      "type": "package",
+      "path": "system.text.json/4.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Text.Json.dll",
+        "lib/net461/System.Text.Json.xml",
+        "lib/netcoreapp3.0/System.Text.Json.dll",
+        "lib/netcoreapp3.0/System.Text.Json.xml",
+        "lib/netstandard2.0/System.Text.Json.dll",
+        "lib/netstandard2.0/System.Text.Json.xml",
+        "system.text.json.4.7.2.nupkg.sha512",
+        "system.text.json.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "MaterialDesignColors/1.0.1": {
+      "type": "project",
+      "path": "../MaterialDesignColors.Wpf/MaterialDesignColors.Wpf.csproj",
+      "msbuildProject": "../MaterialDesignColors.Wpf/MaterialDesignColors.Wpf.csproj"
+    },
+    "MaterialDesignThemes.Wpf/1.0.1": {
+      "type": "project",
+      "path": "../MaterialDesignThemes.Wpf/MaterialDesignThemes.Wpf.csproj",
+      "msbuildProject": "../MaterialDesignThemes.Wpf/MaterialDesignThemes.Wpf.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "MahApps.Metro >= 2.4.9",
+      "MaterialDesignColors >= 1.0.1",
+      "MaterialDesignThemes.Wpf >= 1.0.1"
+    ],
+    ".NETFramework,Version=v4.5.2": [
+      "MaterialDesignColors >= 1.0.1",
+      "MaterialDesignThemes.Wpf >= 1.0.1"
+    ],
+    "net6.0-windows7.0": [
+      "MahApps.Metro >= 2.4.9",
+      "MaterialDesignColors >= 1.0.1",
+      "MaterialDesignThemes.Wpf >= 1.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\qqqq2\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.1",
+    "restore": {
+      "projectUniqueName": "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignThemes.MahApps\\MaterialDesignThemes.MahApps.csproj",
+      "projectName": "MaterialDesignThemes.MahApps",
+      "projectPath": "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignThemes.MahApps\\MaterialDesignThemes.MahApps.csproj",
+      "packagesPath": "C:\\Users\\qqqq2\\.nuget\\packages\\",
+      "outputPath": "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignThemes.MahApps\\obj\\",
+      "projectStyle": "PackageReference",
+      "crossTargeting": true,
+      "centralPackageVersionsManagementEnabled": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\qqqq2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net452",
+        "net6.0-windows",
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignColors.Wpf\\MaterialDesignColors.Wpf.csproj": {
+              "projectPath": "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignColors.Wpf\\MaterialDesignColors.Wpf.csproj"
+            },
+            "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignThemes.Wpf\\MaterialDesignThemes.Wpf.csproj": {
+              "projectPath": "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignThemes.Wpf\\MaterialDesignThemes.Wpf.csproj"
+            }
+          }
+        },
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignColors.Wpf\\MaterialDesignColors.Wpf.csproj": {
+              "projectPath": "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignColors.Wpf\\MaterialDesignColors.Wpf.csproj"
+            },
+            "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignThemes.Wpf\\MaterialDesignThemes.Wpf.csproj": {
+              "projectPath": "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignThemes.Wpf\\MaterialDesignThemes.Wpf.csproj"
+            }
+          }
+        },
+        "net452": {
+          "targetAlias": "net452",
+          "projectReferences": {
+            "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignColors.Wpf\\MaterialDesignColors.Wpf.csproj": {
+              "projectPath": "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignColors.Wpf\\MaterialDesignColors.Wpf.csproj"
+            },
+            "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignThemes.Wpf\\MaterialDesignThemes.Wpf.csproj": {
+              "projectPath": "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignThemes.Wpf\\MaterialDesignThemes.Wpf.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "MahApps.Metro": {
+            "target": "Package",
+            "version": "[2.4.9, )",
+            "versionCentrallyManaged": true
+          }
+        },
+        "centralPackageVersions": {
+          "BluwolfIcons": "[1.0.1, )",
+          "Dragablz": "[0.0.3.223, )",
+          "Humanizer": "[2.14.1, )",
+          "MahApps.Metro": "[2.4.9, )",
+          "Microsoft.CodeAnalysis.Analyzers": "[3.3.3, )",
+          "Microsoft.CodeAnalysis.Common": "[4.1.0, )",
+          "Microsoft.CodeAnalysis.CSharp": "[4.1.0, )",
+          "Microsoft.CodeAnalysis.CSharp.Workspaces": "[4.1.0, )",
+          "Microsoft.CodeAnalysis.Workspaces.Common": "[4.1.0, )",
+          "Microsoft.Composition": "[1.0.31, )",
+          "Microsoft.CSharp": "[4.7.0, )",
+          "Microsoft.NET.Test.Sdk": "[17.1.0, )",
+          "Microsoft.NETCore.Platforms": "[5.0.0, )",
+          "Microsoft.Toolkit.MVVM": "[7.1.2, )",
+          "Newtonsoft.Json": "[13.0.1, )",
+          "Shouldly": "[4.0.3, )",
+          "ShowMeTheXAML": "[2.0.0, )",
+          "ShowMeTheXAML.AvalonEdit": "[2.0.0, )",
+          "ShowMeTheXAML.MSBuild": "[2.0.0, )",
+          "VirtualizingWrapPanel": "[1.5.7, )",
+          "XAMLTest": "[1.0.0-ci233, )",
+          "xunit": "[2.4.1, )",
+          "xunit.runner.visualstudio": "[2.4.3, )",
+          "Xunit.StaFact": "[1.1.11, )"
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      },
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "MahApps.Metro": {
+            "target": "Package",
+            "version": "[2.4.9, )",
+            "versionCentrallyManaged": true
+          }
+        },
+        "centralPackageVersions": {
+          "BluwolfIcons": "[1.0.1, )",
+          "Dragablz": "[0.0.3.223, )",
+          "Humanizer": "[2.14.1, )",
+          "MahApps.Metro": "[2.4.9, )",
+          "Microsoft.CodeAnalysis.Analyzers": "[3.3.3, )",
+          "Microsoft.CodeAnalysis.Common": "[4.1.0, )",
+          "Microsoft.CodeAnalysis.CSharp": "[4.1.0, )",
+          "Microsoft.CodeAnalysis.CSharp.Workspaces": "[4.1.0, )",
+          "Microsoft.CodeAnalysis.Workspaces.Common": "[4.1.0, )",
+          "Microsoft.Composition": "[1.0.31, )",
+          "Microsoft.CSharp": "[4.7.0, )",
+          "Microsoft.NET.Test.Sdk": "[17.1.0, )",
+          "Microsoft.NETCore.Platforms": "[5.0.0, )",
+          "Microsoft.Toolkit.MVVM": "[7.1.2, )",
+          "Newtonsoft.Json": "[13.0.1, )",
+          "Shouldly": "[4.0.3, )",
+          "ShowMeTheXAML": "[2.0.0, )",
+          "ShowMeTheXAML.AvalonEdit": "[2.0.0, )",
+          "ShowMeTheXAML.MSBuild": "[2.0.0, )",
+          "VirtualizingWrapPanel": "[1.5.7, )",
+          "XAMLTest": "[1.0.0-ci233, )",
+          "xunit": "[2.4.1, )",
+          "xunit.runner.visualstudio": "[2.4.3, )",
+          "Xunit.StaFact": "[1.1.11, )"
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      },
+      "net452": {
+        "targetAlias": "net452",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

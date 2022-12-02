@@ -1,0 +1,20 @@
+﻿MaterialDesignThemes.UITests
+
+
+library
+C#
+.cs
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MaterialDesignThemes.UITests\obj\Debug\net6.0-windows\
+MaterialDesignThemes.UITests
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+
+42086878843
+
+24-341431825
+1951815902420
+Samples\DialogHost\ClosingEventCounter.xaml;Samples\DialogHost\WithCounter.xaml;Samples\DrawerHost\CancellingDrawerHost.xaml;Samples\Theme\ColorAdjustWindow.xaml;
+
+True
+

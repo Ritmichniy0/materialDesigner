@@ -1,0 +1,1112 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AvalonEdit/6.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/ICSharpCode.AvalonEdit.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/ICSharpCode.AvalonEdit.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
+      "BluwolfIcons/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net461/BluwolfIcons.dll": {}
+        },
+        "runtime": {
+          "lib/net461/BluwolfIcons.dll": {}
+        }
+      },
+      "ShowMeTheXAML/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/ShowMeTheXAML.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/ShowMeTheXAML.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "ShowMeTheXAML.AvalonEdit/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AvalonEdit": "6.0.1",
+          "ShowMeTheXAML": "2.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/ShowMeTheXAML.AvalonEdit.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/ShowMeTheXAML.AvalonEdit.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "ShowMeTheXAML.MSBuild/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "ShowMeTheXAML": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "build": {
+          "build/netstandard2.0/ShowMeTheXAML.MSBuild.targets": {}
+        }
+      },
+      "VirtualizingWrapPanel/1.5.7": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/VirtualizingWrapPanel.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/VirtualizingWrapPanel.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "MaterialDesignColors/1.0.1": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/MaterialDesignColors.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MaterialDesignColors.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "MaterialDesignThemes.Wpf/1.0.1": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MaterialDesignColors": "1.0.1"
+        },
+        "compile": {
+          "bin/placeholder/MaterialDesignThemes.Wpf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MaterialDesignThemes.Wpf.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    },
+    ".NETCoreApp,Version=v3.1/win7-x86": {
+      "AvalonEdit/6.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/ICSharpCode.AvalonEdit.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/ICSharpCode.AvalonEdit.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
+      "BluwolfIcons/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net461/BluwolfIcons.dll": {}
+        },
+        "runtime": {
+          "lib/net461/BluwolfIcons.dll": {}
+        }
+      },
+      "ShowMeTheXAML/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/ShowMeTheXAML.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/ShowMeTheXAML.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "ShowMeTheXAML.AvalonEdit/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AvalonEdit": "6.0.1",
+          "ShowMeTheXAML": "2.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/ShowMeTheXAML.AvalonEdit.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/ShowMeTheXAML.AvalonEdit.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "ShowMeTheXAML.MSBuild/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "ShowMeTheXAML": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "build": {
+          "build/netstandard2.0/ShowMeTheXAML.MSBuild.targets": {}
+        }
+      },
+      "VirtualizingWrapPanel/1.5.7": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/VirtualizingWrapPanel.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/VirtualizingWrapPanel.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "MaterialDesignColors/1.0.1": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/MaterialDesignColors.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MaterialDesignColors.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "MaterialDesignThemes.Wpf/1.0.1": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MaterialDesignColors": "1.0.1"
+        },
+        "compile": {
+          "bin/placeholder/MaterialDesignThemes.Wpf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MaterialDesignThemes.Wpf.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    },
+    ".NETFramework,Version=v4.7.2": {
+      "AvalonEdit/6.0.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net45/ICSharpCode.AvalonEdit.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ICSharpCode.AvalonEdit.dll": {}
+        }
+      },
+      "BluwolfIcons/1.0.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net461/BluwolfIcons.dll": {}
+        },
+        "runtime": {
+          "lib/net461/BluwolfIcons.dll": {}
+        }
+      },
+      "ShowMeTheXAML/2.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "System.Xaml",
+          "System.Xml.Linq",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net472/ShowMeTheXAML.dll": {}
+        },
+        "runtime": {
+          "lib/net472/ShowMeTheXAML.dll": {}
+        }
+      },
+      "ShowMeTheXAML.AvalonEdit/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AvalonEdit": "6.0.1",
+          "ShowMeTheXAML": "2.0.0"
+        },
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "System.Xaml",
+          "System.Xml.Linq",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net472/ShowMeTheXAML.AvalonEdit.dll": {}
+        },
+        "runtime": {
+          "lib/net472/ShowMeTheXAML.AvalonEdit.dll": {}
+        }
+      },
+      "ShowMeTheXAML.MSBuild/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "ShowMeTheXAML": "2.0.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.Build",
+          "Microsoft.Build.Framework",
+          "Microsoft.Build.Tasks.v4.0",
+          "Microsoft.Build.Utilities.v4.0"
+        ],
+        "compile": {
+          "lib/net472/_._": {}
+        },
+        "runtime": {
+          "lib/net472/_._": {}
+        },
+        "build": {
+          "build/net472/ShowMeTheXAML.MSBuild.targets": {}
+        }
+      },
+      "VirtualizingWrapPanel/1.5.7": {
+        "type": "package",
+        "compile": {
+          "lib/net452/VirtualizingWrapPanel.dll": {}
+        },
+        "runtime": {
+          "lib/net452/VirtualizingWrapPanel.dll": {}
+        }
+      },
+      "MaterialDesignColors/1.0.1": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.2",
+        "compile": {
+          "bin/placeholder/MaterialDesignColors.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MaterialDesignColors.dll": {}
+        }
+      },
+      "MaterialDesignThemes.Wpf/1.0.1": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.2",
+        "dependencies": {
+          "MaterialDesignColors": "1.0.1"
+        },
+        "compile": {
+          "bin/placeholder/MaterialDesignThemes.Wpf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MaterialDesignThemes.Wpf.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win7-x86": {
+      "AvalonEdit/6.0.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net45/ICSharpCode.AvalonEdit.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ICSharpCode.AvalonEdit.dll": {}
+        }
+      },
+      "BluwolfIcons/1.0.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net461/BluwolfIcons.dll": {}
+        },
+        "runtime": {
+          "lib/net461/BluwolfIcons.dll": {}
+        }
+      },
+      "ShowMeTheXAML/2.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "System.Xaml",
+          "System.Xml.Linq",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net472/ShowMeTheXAML.dll": {}
+        },
+        "runtime": {
+          "lib/net472/ShowMeTheXAML.dll": {}
+        }
+      },
+      "ShowMeTheXAML.AvalonEdit/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AvalonEdit": "6.0.1",
+          "ShowMeTheXAML": "2.0.0"
+        },
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "System.Xaml",
+          "System.Xml.Linq",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net472/ShowMeTheXAML.AvalonEdit.dll": {}
+        },
+        "runtime": {
+          "lib/net472/ShowMeTheXAML.AvalonEdit.dll": {}
+        }
+      },
+      "ShowMeTheXAML.MSBuild/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "ShowMeTheXAML": "2.0.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.Build",
+          "Microsoft.Build.Framework",
+          "Microsoft.Build.Tasks.v4.0",
+          "Microsoft.Build.Utilities.v4.0"
+        ],
+        "compile": {
+          "lib/net472/_._": {}
+        },
+        "runtime": {
+          "lib/net472/_._": {}
+        },
+        "build": {
+          "build/net472/ShowMeTheXAML.MSBuild.targets": {}
+        }
+      },
+      "VirtualizingWrapPanel/1.5.7": {
+        "type": "package",
+        "compile": {
+          "lib/net452/VirtualizingWrapPanel.dll": {}
+        },
+        "runtime": {
+          "lib/net452/VirtualizingWrapPanel.dll": {}
+        }
+      },
+      "MaterialDesignColors/1.0.1": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.2",
+        "compile": {
+          "bin/placeholder/MaterialDesignColors.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MaterialDesignColors.dll": {}
+        }
+      },
+      "MaterialDesignThemes.Wpf/1.0.1": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.2",
+        "dependencies": {
+          "MaterialDesignColors": "1.0.1"
+        },
+        "compile": {
+          "bin/placeholder/MaterialDesignThemes.Wpf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MaterialDesignThemes.Wpf.dll": {}
+        }
+      }
+    },
+    "net6.0-windows7.0": {
+      "AvalonEdit/6.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/ICSharpCode.AvalonEdit.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/ICSharpCode.AvalonEdit.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
+      "BluwolfIcons/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net461/BluwolfIcons.dll": {}
+        },
+        "runtime": {
+          "lib/net461/BluwolfIcons.dll": {}
+        }
+      },
+      "ShowMeTheXAML/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/ShowMeTheXAML.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/ShowMeTheXAML.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "ShowMeTheXAML.AvalonEdit/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AvalonEdit": "6.0.1",
+          "ShowMeTheXAML": "2.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/ShowMeTheXAML.AvalonEdit.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/ShowMeTheXAML.AvalonEdit.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "ShowMeTheXAML.MSBuild/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "ShowMeTheXAML": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "build": {
+          "build/netstandard2.0/ShowMeTheXAML.MSBuild.targets": {}
+        }
+      },
+      "VirtualizingWrapPanel/1.5.7": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/VirtualizingWrapPanel.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/VirtualizingWrapPanel.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "MaterialDesignColors/1.0.1": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MaterialDesignColors.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MaterialDesignColors.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "MaterialDesignThemes.Wpf/1.0.1": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MaterialDesignColors": "1.0.1"
+        },
+        "compile": {
+          "bin/placeholder/MaterialDesignThemes.Wpf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MaterialDesignThemes.Wpf.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    },
+    "net6.0-windows7.0/win7-x86": {
+      "AvalonEdit/6.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/ICSharpCode.AvalonEdit.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/ICSharpCode.AvalonEdit.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
+      "BluwolfIcons/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net461/BluwolfIcons.dll": {}
+        },
+        "runtime": {
+          "lib/net461/BluwolfIcons.dll": {}
+        }
+      },
+      "ShowMeTheXAML/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/ShowMeTheXAML.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/ShowMeTheXAML.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "ShowMeTheXAML.AvalonEdit/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AvalonEdit": "6.0.1",
+          "ShowMeTheXAML": "2.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/ShowMeTheXAML.AvalonEdit.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/ShowMeTheXAML.AvalonEdit.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "ShowMeTheXAML.MSBuild/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "ShowMeTheXAML": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "build": {
+          "build/netstandard2.0/ShowMeTheXAML.MSBuild.targets": {}
+        }
+      },
+      "VirtualizingWrapPanel/1.5.7": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/VirtualizingWrapPanel.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/VirtualizingWrapPanel.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "MaterialDesignColors/1.0.1": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MaterialDesignColors.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MaterialDesignColors.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "MaterialDesignThemes.Wpf/1.0.1": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MaterialDesignColors": "1.0.1"
+        },
+        "compile": {
+          "bin/placeholder/MaterialDesignThemes.Wpf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MaterialDesignThemes.Wpf.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "AvalonEdit/6.0.1": {
+      "sha512": "JmRwKMDRUUkUGLQmTtIHiSgFSQH9567b2/55Wa/gQp+ZtxQN+mnl5Qt6B/Kgz56FMnnDyE/fV23r7J2SV+NP7g==",
+      "type": "package",
+      "path": "avalonedit/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "avalonedit.6.0.1.nupkg.sha512",
+        "avalonedit.nuspec",
+        "lib/net40/ICSharpCode.AvalonEdit.dll",
+        "lib/net40/ICSharpCode.AvalonEdit.xml",
+        "lib/net45/ICSharpCode.AvalonEdit.dll",
+        "lib/net45/ICSharpCode.AvalonEdit.xml",
+        "lib/netcoreapp3.0/ICSharpCode.AvalonEdit.dll",
+        "lib/netcoreapp3.0/ICSharpCode.AvalonEdit.xml"
+      ]
+    },
+    "BluwolfIcons/1.0.1": {
+      "sha512": "+7+306bQNZ5RkGmS8RsUHqQKH0rj/x5GpjRevPUBs27Yha4XAkbuDfiurRjvRUskDYqe2RiCyeJUVRVoiR0rIQ==",
+      "type": "package",
+      "path": "bluwolficons/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bluwolficons.1.0.1.nupkg.sha512",
+        "bluwolficons.nuspec",
+        "lib/net461/BluwolfIcons.XML",
+        "lib/net461/BluwolfIcons.dll"
+      ]
+    },
+    "ShowMeTheXAML/2.0.0": {
+      "sha512": "ljDrkSyGhx3EKIq73c9317m7NsvTjCKVdO0vnqzjwdWAgFkpdfrEd3Nn6uF/Mc+QUTSUfFfjmONJDfYSPwCB3g==",
+      "type": "package",
+      "path": "showmethexaml/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid10.0/ShowMeTheXAML.dll",
+        "lib/monoandroid90/ShowMeTheXAML.dll",
+        "lib/net472/ShowMeTheXAML.dll",
+        "lib/netcoreapp3.1/ShowMeTheXAML.dll",
+        "lib/netstandard2.0/ShowMeTheXAML.dll",
+        "lib/uap10.0.17763/ShowMeTheXAML.dll",
+        "lib/uap10.0.17763/ShowMeTheXAML.pri",
+        "lib/xamarinios10/ShowMeTheXAML.dll",
+        "lib/xamarinmac20/ShowMeTheXAML.dll",
+        "showmethexaml.2.0.0.nupkg.sha512",
+        "showmethexaml.nuspec"
+      ]
+    },
+    "ShowMeTheXAML.AvalonEdit/2.0.0": {
+      "sha512": "dygU2s8iFNmXMNWYnXTxT0qWB7K2gwvinpmep1ILgDoZUsBytRhS+SjGAqdORXz0Hsfvl2he9rTLnKj95TspDQ==",
+      "type": "package",
+      "path": "showmethexaml.avalonedit/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/ShowMeTheXAML.AvalonEdit.dll",
+        "lib/netcoreapp3.1/ShowMeTheXAML.AvalonEdit.dll",
+        "showmethexaml.avalonedit.2.0.0.nupkg.sha512",
+        "showmethexaml.avalonedit.nuspec"
+      ]
+    },
+    "ShowMeTheXAML.MSBuild/2.0.0": {
+      "sha512": "EilS9tMJdusWau9tFMmvPOX+uO8eUGy7I4UHIar+g2xkRgRlT/F3yDJY5jq2jDmzwzx4DUsZo48r37Y3R/R78A==",
+      "type": "package",
+      "path": "showmethexaml.msbuild/2.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/monoandroid10.0/ShowMeTheXAML.MSBuild.targets",
+        "build/monoandroid90/ShowMeTheXAML.MSBuild.targets",
+        "build/net472/ShowMeTheXAML.MSBuild.targets",
+        "build/netstandard2.0/ShowMeTheXAML.MSBuild.targets",
+        "build/uap10.0.17763/ShowMeTheXAML.MSBuild.targets",
+        "build/xamarinios10/ShowMeTheXAML.MSBuild.targets",
+        "build/xamarinmac20/ShowMeTheXAML.MSBuild.targets",
+        "lib/monoandroid10.0/_._",
+        "lib/monoandroid90/_._",
+        "lib/net472/_._",
+        "lib/netstandard2.0/_._",
+        "lib/uap10.0.17763/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "showmethexaml.msbuild.2.0.0.nupkg.sha512",
+        "showmethexaml.msbuild.nuspec",
+        "tools/netcore/ShowMeTheXAML.MSBuild.deps.json",
+        "tools/netcore/ShowMeTheXAML.MSBuild.dll",
+        "tools/netcore/ShowMeTheXAML.MSBuild.pdb",
+        "tools/netframework/ShowMeTheXAML.MSBuild.dll",
+        "tools/netframework/ShowMeTheXAML.MSBuild.pdb"
+      ]
+    },
+    "VirtualizingWrapPanel/1.5.7": {
+      "sha512": "BdeoOELIQU6m3KXlbi+vSPuiDS3PFhkYHWrPAjkwAOLEk47vKWUYIhgm/XRHLyFL6my+NsmHigtYt+9YBNJYcg==",
+      "type": "package",
+      "path": "virtualizingwrappanel/1.5.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/VirtualizingWrapPanel.dll",
+        "lib/net5.0-windows7.0/VirtualizingWrapPanel.dll",
+        "lib/net6.0-windows7.0/VirtualizingWrapPanel.dll",
+        "lib/netcoreapp3.1/VirtualizingWrapPanel.dll",
+        "virtualizingwrappanel.1.5.7.nupkg.sha512",
+        "virtualizingwrappanel.nuspec"
+      ]
+    },
+    "MaterialDesignColors/1.0.1": {
+      "type": "project",
+      "path": "../MaterialDesignColors.Wpf/MaterialDesignColors.Wpf.csproj",
+      "msbuildProject": "../MaterialDesignColors.Wpf/MaterialDesignColors.Wpf.csproj"
+    },
+    "MaterialDesignThemes.Wpf/1.0.1": {
+      "type": "project",
+      "path": "../MaterialDesignThemes.Wpf/MaterialDesignThemes.Wpf.csproj",
+      "msbuildProject": "../MaterialDesignThemes.Wpf/MaterialDesignThemes.Wpf.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "BluwolfIcons >= 1.0.1",
+      "MaterialDesignColors >= 1.0.1",
+      "MaterialDesignThemes.Wpf >= 1.0.1",
+      "ShowMeTheXAML >= 2.0.0",
+      "ShowMeTheXAML.AvalonEdit >= 2.0.0",
+      "ShowMeTheXAML.MSBuild >= 2.0.0",
+      "VirtualizingWrapPanel >= 1.5.7"
+    ],
+    ".NETFramework,Version=v4.7.2": [
+      "BluwolfIcons >= 1.0.1",
+      "MaterialDesignColors >= 1.0.1",
+      "MaterialDesignThemes.Wpf >= 1.0.1",
+      "ShowMeTheXAML >= 2.0.0",
+      "ShowMeTheXAML.AvalonEdit >= 2.0.0",
+      "ShowMeTheXAML.MSBuild >= 2.0.0",
+      "VirtualizingWrapPanel >= 1.5.7"
+    ],
+    "net6.0-windows7.0": [
+      "BluwolfIcons >= 1.0.1",
+      "MaterialDesignColors >= 1.0.1",
+      "MaterialDesignThemes.Wpf >= 1.0.1",
+      "ShowMeTheXAML >= 2.0.0",
+      "ShowMeTheXAML.AvalonEdit >= 2.0.0",
+      "ShowMeTheXAML.MSBuild >= 2.0.0",
+      "VirtualizingWrapPanel >= 1.5.7"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\qqqq2\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MainDemo.Wpf\\MaterialDesignDemo.csproj",
+      "projectName": "MaterialDesignDemo",
+      "projectPath": "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MainDemo.Wpf\\MaterialDesignDemo.csproj",
+      "packagesPath": "C:\\Users\\qqqq2\\.nuget\\packages\\",
+      "outputPath": "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MainDemo.Wpf\\obj\\",
+      "projectStyle": "PackageReference",
+      "crossTargeting": true,
+      "centralPackageVersionsManagementEnabled": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\qqqq2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472",
+        "net6.0-windows",
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignColors.Wpf\\MaterialDesignColors.Wpf.csproj": {
+              "projectPath": "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignColors.Wpf\\MaterialDesignColors.Wpf.csproj"
+            },
+            "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignThemes.Wpf\\MaterialDesignThemes.Wpf.csproj": {
+              "projectPath": "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignThemes.Wpf\\MaterialDesignThemes.Wpf.csproj"
+            }
+          }
+        },
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignColors.Wpf\\MaterialDesignColors.Wpf.csproj": {
+              "projectPath": "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignColors.Wpf\\MaterialDesignColors.Wpf.csproj"
+            },
+            "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignThemes.Wpf\\MaterialDesignThemes.Wpf.csproj": {
+              "projectPath": "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignThemes.Wpf\\MaterialDesignThemes.Wpf.csproj"
+            }
+          }
+        },
+        "net472": {
+          "targetAlias": "net472",
+          "projectReferences": {
+            "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignColors.Wpf\\MaterialDesignColors.Wpf.csproj": {
+              "projectPath": "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignColors.Wpf\\MaterialDesignColors.Wpf.csproj"
+            },
+            "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignThemes.Wpf\\MaterialDesignThemes.Wpf.csproj": {
+              "projectPath": "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignThemes.Wpf\\MaterialDesignThemes.Wpf.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "BluwolfIcons": {
+            "target": "Package",
+            "version": "[1.0.1, )",
+            "noWarn": [
+              "NU1701"
+            ],
+            "versionCentrallyManaged": true
+          },
+          "ShowMeTheXAML": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "versionCentrallyManaged": true
+          },
+          "ShowMeTheXAML.AvalonEdit": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "versionCentrallyManaged": true
+          },
+          "ShowMeTheXAML.MSBuild": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "versionCentrallyManaged": true
+          },
+          "VirtualizingWrapPanel": {
+            "target": "Package",
+            "version": "[1.5.7, )",
+            "versionCentrallyManaged": true
+          }
+        },
+        "centralPackageVersions": {
+          "BluwolfIcons": "[1.0.1, )",
+          "Dragablz": "[0.0.3.223, )",
+          "Humanizer": "[2.14.1, )",
+          "MahApps.Metro": "[2.4.9, )",
+          "Microsoft.CodeAnalysis.Analyzers": "[3.3.3, )",
+          "Microsoft.CodeAnalysis.Common": "[4.1.0, )",
+          "Microsoft.CodeAnalysis.CSharp": "[4.1.0, )",
+          "Microsoft.CodeAnalysis.CSharp.Workspaces": "[4.1.0, )",
+          "Microsoft.CodeAnalysis.Workspaces.Common": "[4.1.0, )",
+          "Microsoft.Composition": "[1.0.31, )",
+          "Microsoft.CSharp": "[4.7.0, )",
+          "Microsoft.NET.Test.Sdk": "[17.1.0, )",
+          "Microsoft.NETCore.Platforms": "[5.0.0, )",
+          "Microsoft.Toolkit.MVVM": "[7.1.2, )",
+          "Newtonsoft.Json": "[13.0.1, )",
+          "Shouldly": "[4.0.3, )",
+          "ShowMeTheXAML": "[2.0.0, )",
+          "ShowMeTheXAML.AvalonEdit": "[2.0.0, )",
+          "ShowMeTheXAML.MSBuild": "[2.0.0, )",
+          "VirtualizingWrapPanel": "[1.5.7, )",
+          "XAMLTest": "[1.0.0-ci233, )",
+          "xunit": "[2.4.1, )",
+          "xunit.runner.visualstudio": "[2.4.3, )",
+          "Xunit.StaFact": "[1.1.11, )"
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      },
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "BluwolfIcons": {
+            "target": "Package",
+            "version": "[1.0.1, )",
+            "noWarn": [
+              "NU1701"
+            ],
+            "versionCentrallyManaged": true
+          },
+          "ShowMeTheXAML": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "versionCentrallyManaged": true
+          },
+          "ShowMeTheXAML.AvalonEdit": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "versionCentrallyManaged": true
+          },
+          "ShowMeTheXAML.MSBuild": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "versionCentrallyManaged": true
+          },
+          "VirtualizingWrapPanel": {
+            "target": "Package",
+            "version": "[1.5.7, )",
+            "versionCentrallyManaged": true
+          }
+        },
+        "centralPackageVersions": {
+          "BluwolfIcons": "[1.0.1, )",
+          "Dragablz": "[0.0.3.223, )",
+          "Humanizer": "[2.14.1, )",
+          "MahApps.Metro": "[2.4.9, )",
+          "Microsoft.CodeAnalysis.Analyzers": "[3.3.3, )",
+          "Microsoft.CodeAnalysis.Common": "[4.1.0, )",
+          "Microsoft.CodeAnalysis.CSharp": "[4.1.0, )",
+          "Microsoft.CodeAnalysis.CSharp.Workspaces": "[4.1.0, )",
+          "Microsoft.CodeAnalysis.Workspaces.Common": "[4.1.0, )",
+          "Microsoft.Composition": "[1.0.31, )",
+          "Microsoft.CSharp": "[4.7.0, )",
+          "Microsoft.NET.Test.Sdk": "[17.1.0, )",
+          "Microsoft.NETCore.Platforms": "[5.0.0, )",
+          "Microsoft.Toolkit.MVVM": "[7.1.2, )",
+          "Newtonsoft.Json": "[13.0.1, )",
+          "Shouldly": "[4.0.3, )",
+          "ShowMeTheXAML": "[2.0.0, )",
+          "ShowMeTheXAML.AvalonEdit": "[2.0.0, )",
+          "ShowMeTheXAML.MSBuild": "[2.0.0, )",
+          "VirtualizingWrapPanel": "[1.5.7, )",
+          "XAMLTest": "[1.0.0-ci233, )",
+          "xunit": "[2.4.1, )",
+          "xunit.runner.visualstudio": "[2.4.3, )",
+          "Xunit.StaFact": "[1.1.11, )"
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      },
+      "net472": {
+        "targetAlias": "net472",
+        "dependencies": {
+          "BluwolfIcons": {
+            "target": "Package",
+            "version": "[1.0.1, )",
+            "noWarn": [
+              "NU1701"
+            ],
+            "versionCentrallyManaged": true
+          },
+          "ShowMeTheXAML": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "versionCentrallyManaged": true
+          },
+          "ShowMeTheXAML.AvalonEdit": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "versionCentrallyManaged": true
+          },
+          "ShowMeTheXAML.MSBuild": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "versionCentrallyManaged": true
+          },
+          "VirtualizingWrapPanel": {
+            "target": "Package",
+            "version": "[1.5.7, )",
+            "versionCentrallyManaged": true
+          }
+        },
+        "centralPackageVersions": {
+          "BluwolfIcons": "[1.0.1, )",
+          "Dragablz": "[0.0.3.223, )",
+          "Humanizer": "[2.14.1, )",
+          "MahApps.Metro": "[2.4.9, )",
+          "Microsoft.CodeAnalysis.Analyzers": "[3.3.3, )",
+          "Microsoft.CodeAnalysis.Common": "[4.1.0, )",
+          "Microsoft.CodeAnalysis.CSharp": "[4.1.0, )",
+          "Microsoft.CodeAnalysis.CSharp.Workspaces": "[4.1.0, )",
+          "Microsoft.CodeAnalysis.Workspaces.Common": "[4.1.0, )",
+          "Microsoft.Composition": "[1.0.31, )",
+          "Microsoft.CSharp": "[4.7.0, )",
+          "Microsoft.NET.Test.Sdk": "[17.1.0, )",
+          "Microsoft.NETCore.Platforms": "[5.0.0, )",
+          "Microsoft.Toolkit.MVVM": "[7.1.2, )",
+          "Newtonsoft.Json": "[13.0.1, )",
+          "Shouldly": "[4.0.3, )",
+          "ShowMeTheXAML": "[2.0.0, )",
+          "ShowMeTheXAML.AvalonEdit": "[2.0.0, )",
+          "ShowMeTheXAML.MSBuild": "[2.0.0, )",
+          "VirtualizingWrapPanel": "[1.5.7, )",
+          "XAMLTest": "[1.0.0-ci233, )",
+          "xunit": "[2.4.1, )",
+          "xunit.runner.visualstudio": "[2.4.3, )",
+          "Xunit.StaFact": "[1.1.11, )"
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}

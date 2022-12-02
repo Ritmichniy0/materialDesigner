@@ -1,0 +1,20 @@
+﻿MaterialDesignDemo
+1.0.0.0
+
+winexe
+C#
+.cs
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MainDemo.Wpf\obj\Debug\netcoreapp3.1\
+MaterialDesignDemo
+none
+false
+TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MainDemo.Wpf\App.xaml
+471258770351
+
+91-1504963017
+2061281149741
+Buttons.xaml;Cards.xaml;Chips.xaml;ColorTool.xaml;ColorZones.xaml;ComboBoxes.xaml;DataGrids.xaml;Dialogs.xaml;Domain\DocumentationLinks.xaml;Domain\Sample4Dialog.xaml;Domain\SampleDialog.xaml;Domain\SampleMessageDialog.xaml;Domain\SampleProgressDialog.xaml;Drawers.xaml;Expander.xaml;Fields.xaml;FieldsLineUp.xaml;GroupBoxes.xaml;Home.xaml;IconPack.xaml;Lists.xaml;MainWindow.xaml;MenusAndToolBars.xaml;NavigationRail.xaml;Palette.xaml;PaletteSelector.xaml;Pickers.xaml;Progress.xaml;RatingBar.xaml;Shadows.xaml;Sliders.xaml;Snackbars.xaml;Tabs.xaml;ThemeSettings.xaml;Toggles.xaml;Transitions.xaml;TransitionsDemo\Slide1_Intro.xaml;TransitionsDemo\Slide2_Intro.xaml;TransitionsDemo\Slide3_Intro.xaml;TransitionsDemo\Slide4_CombineTransitions.xaml;TransitionsDemo\Slide5_TransitioningContent.xaml;TransitionsDemo\Slide6_Origins.xaml;TransitionsDemo\Slide7_MVVM.xaml;TransitionsDemo\Slide8_Details.xaml;TransitionsDemo\TransitionsDemoHome.xaml;Trees.xaml;Typography.xaml;
+
+True
+

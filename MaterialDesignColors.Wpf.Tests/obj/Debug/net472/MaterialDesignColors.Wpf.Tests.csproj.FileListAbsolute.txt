@@ -1,0 +1,6 @@
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MaterialDesignColors.Wpf.Tests\obj\Debug\net472\MaterialDesignColors.Wpf.Tests.csproj.AssemblyReference.cache
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MaterialDesignColors.Wpf.Tests\obj\Debug\net472\MaterialDesignColors.Wpf.Tests.csproj.SuggestedBindingRedirects.cache
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MaterialDesignColors.Wpf.Tests\obj\Debug\net472\MaterialDesignColors.Wpf.Tests.GeneratedMSBuildEditorConfig.editorconfig
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MaterialDesignColors.Wpf.Tests\obj\Debug\net472\MaterialDesignColors.Wpf.Tests.AssemblyInfoInputs.cache
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MaterialDesignColors.Wpf.Tests\obj\Debug\net472\MaterialDesignColors.Wpf.Tests.AssemblyInfo.cs
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MaterialDesignColors.Wpf.Tests\obj\Debug\net472\MaterialDesignColors.Wpf.Tests.csproj.CoreCompileInputs.cache

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ArLckSls2Blrq/g6v3cPZtzRS2OiLJWGL/GhZpFEFxL3r+Sv3xbvij6/FXem0MZ8uRzRpYG00BWHXCC7sA87jg==",
+  "success": true,
+  "projectFilePath": "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MainDemo.Wpf\\MaterialDesignDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\qqqq2\\.nuget\\packages\\avalonedit\\6.0.1\\avalonedit.6.0.1.nupkg.sha512",
+    "C:\\Users\\qqqq2\\.nuget\\packages\\bluwolficons\\1.0.1\\bluwolficons.1.0.1.nupkg.sha512",
+    "C:\\Users\\qqqq2\\.nuget\\packages\\showmethexaml\\2.0.0\\showmethexaml.2.0.0.nupkg.sha512",
+    "C:\\Users\\qqqq2\\.nuget\\packages\\showmethexaml.avalonedit\\2.0.0\\showmethexaml.avalonedit.2.0.0.nupkg.sha512",
+    "C:\\Users\\qqqq2\\.nuget\\packages\\showmethexaml.msbuild\\2.0.0\\showmethexaml.msbuild.2.0.0.nupkg.sha512",
+    "C:\\Users\\qqqq2\\.nuget\\packages\\virtualizingwrappanel\\1.5.7\\virtualizingwrappanel.1.5.7.nupkg.sha512"
+  ],
+  "logs": []
+}

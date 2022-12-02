@@ -1,0 +1,13 @@
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MainDemo.Wpf\obj\Debug\net472\MaterialDesignDemo.csproj.AssemblyReference.cache
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MainDemo.Wpf\obj\Debug\net472\MaterialDesignDemo.csproj.SuggestedBindingRedirects.cache
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MainDemo.Wpf\obj\Debug\net472\Domain\SampleProgressDialog.baml
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MainDemo.Wpf\obj\Debug\net472\Palette.baml
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MainDemo.Wpf\obj\Debug\net472\Typography.baml
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MainDemo.Wpf\obj\Debug\net472\Domain\SampleProgressDialog.g.cs
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MainDemo.Wpf\obj\Debug\net472\Palette.g.cs
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MainDemo.Wpf\obj\Debug\net472\Transitions.g.cs
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MainDemo.Wpf\obj\Debug\net472\TransitionsDemo\Slide8_Details.g.cs
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MainDemo.Wpf\obj\Debug\net472\Typography.g.cs
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MainDemo.Wpf\obj\Debug\net472\GeneratedInternalTypeHelper.g.cs
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MainDemo.Wpf\obj\Debug\net472\MaterialDesignDemo_MarkupCompile.cache
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MainDemo.Wpf\obj\Debug\net472\MaterialDesignDemo_MarkupCompile.lref

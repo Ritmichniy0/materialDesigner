@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "w/DEXL18Vejkyp8ErG7EuGyhwcdX/PU9ERf+MEHB8a9P4waSwu/oY6/3tQHFD3fgWPyt6mimWSMKq4H+s6XYEA==",
+  "success": true,
+  "projectFilePath": "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignThemes.MahApps\\MaterialDesignThemes.MahApps.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\qqqq2\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
+    "C:\\Users\\qqqq2\\.nuget\\packages\\mahapps.metro\\2.4.9\\mahapps.metro.2.4.9.nupkg.sha512",
+    "C:\\Users\\qqqq2\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
+    "C:\\Users\\qqqq2\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}

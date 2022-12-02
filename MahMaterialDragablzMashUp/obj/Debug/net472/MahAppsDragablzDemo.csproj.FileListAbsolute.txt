@@ -1,0 +1,5 @@
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MahMaterialDragablzMashUp\obj\Debug\net472\MahAppsDragablzDemo.csproj.AssemblyReference.cache
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MahMaterialDragablzMashUp\obj\Debug\net472\MahAppsDragablzDemo.csproj.SuggestedBindingRedirects.cache
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MahMaterialDragablzMashUp\obj\Debug\net472\Dialogs.g.cs
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MahMaterialDragablzMashUp\obj\Debug\net472\MahAppsDragablzDemo_MarkupCompile.cache
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MahMaterialDragablzMashUp\obj\Debug\net472\MahAppsDragablzDemo_MarkupCompile.lref

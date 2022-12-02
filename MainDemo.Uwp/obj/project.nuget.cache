@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZOLZq4A21qWie3KkFPPyww+BzEcqt76ZOTDsb05YnnzWVWxHJxnOxaFc/1XhIOZ7aIZT+hL+OOHZSpbeTAPvbg==",
+  "success": false,
+  "projectFilePath": "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MainDemo.Uwp\\MainDemo.Uwp.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1008",
+      "level": "Error",
+      "message": "В проектах, в которых используется централизованное управление версиями пакетов, версию необходимо определять не в элементах PackageReference, а в элементе PackageVersion: Microsoft.ApplicationInsights;Microsoft.ApplicationInsights.PersistenceChannel;Microsoft.ApplicationInsights.WindowsApps;Microsoft.NETCore.UniversalWindowsPlatform."
+    }
+  ]
+}

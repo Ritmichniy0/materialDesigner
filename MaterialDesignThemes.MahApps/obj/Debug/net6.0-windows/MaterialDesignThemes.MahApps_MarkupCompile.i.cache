@@ -1,0 +1,20 @@
+﻿MaterialDesignThemes.MahApps
+1.0.1
+
+library
+C#
+.cs
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MaterialDesignThemes.MahApps\obj\Debug\net6.0-windows\
+MaterialDesignThemes.MahApps
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+
+9-1684296920
+
+10-1888057834
+199-1813314403
+Themes\MaterialDesignTheme.MahApps.Defaults.xaml;Themes\MaterialDesignTheme.MahApps.Dialogs.xaml;Themes\MaterialDesignTheme.MahApps.Flyout.xaml;Themes\MaterialDesignTheme.MahApps.Fonts.xaml;Themes\MaterialDesignTheme.MahApps.NumericUpDown.xaml;Themes\MaterialDesignTheme.MahApps.PasswordBox.xaml;Themes\MaterialDesignTheme.MahApps.RangeSlider.xaml;Themes\MaterialDesignTheme.MahApps.TextBox.xaml;Themes\MaterialDesignTheme.MahApps.WindowCommands.xaml;
+
+True
+

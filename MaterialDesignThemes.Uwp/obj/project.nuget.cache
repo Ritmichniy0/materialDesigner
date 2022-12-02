@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "sGcFtjE2DHedgZo025MY7+xbJEoraQ5B5632ATTZSWXY1ZYo8otSZPPHMb9vyIFZDPyfByTu2OqSa/X/c5YpMw==",
+  "success": false,
+  "projectFilePath": "D:\\Рабочий стол\\MaterialDesignInXamlToolkit-master\\MaterialDesignThemes.Uwp\\MaterialDesignThemes.Uwp.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1008",
+      "level": "Error",
+      "message": "В проектах, в которых используется централизованное управление версиями пакетов, версию необходимо определять не в элементах PackageReference, а в элементе PackageVersion: Microsoft.NETCore.UniversalWindowsPlatform;Win2D.uwp."
+    }
+  ]
+}

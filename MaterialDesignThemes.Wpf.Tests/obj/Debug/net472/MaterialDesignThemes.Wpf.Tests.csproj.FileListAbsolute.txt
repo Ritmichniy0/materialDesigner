@@ -1,0 +1,6 @@
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MaterialDesignThemes.Wpf.Tests\obj\Debug\net472\MaterialDesignThemes.Wpf.Tests.csproj.AssemblyReference.cache
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MaterialDesignThemes.Wpf.Tests\obj\Debug\net472\MaterialDesignThemes.Wpf.Tests.csproj.SuggestedBindingRedirects.cache
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MaterialDesignThemes.Wpf.Tests\obj\Debug\net472\MaterialDesignThemes.Wpf.Tests.GeneratedMSBuildEditorConfig.editorconfig
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MaterialDesignThemes.Wpf.Tests\obj\Debug\net472\MaterialDesignThemes.Wpf.Tests.AssemblyInfoInputs.cache
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MaterialDesignThemes.Wpf.Tests\obj\Debug\net472\MaterialDesignThemes.Wpf.Tests.AssemblyInfo.cs
+D:\Рабочий стол\MaterialDesignInXamlToolkit-master\MaterialDesignThemes.Wpf.Tests\obj\Debug\net472\MaterialDesignThemes.Wpf.Tests.csproj.CoreCompileInputs.cache
